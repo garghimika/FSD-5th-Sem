@@ -1,0 +1,65 @@
+/* body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 32px;
+	background: #f4f7fb;
+	color: #1f2937;
+}
+
+h1 {
+	margin-top: 0;
+}
+
+form {
+	max-width: 420px;
+	background: #ffffff;
+	padding: 24px;
+	border-radius: 12px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+form div {
+	margin-bottom: 16px;
+}
+
+input {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px 12px;
+	border: 1px solid #cbd5e1;
+	border-radius: 8px;
+	font-size: 16px;
+}
+
+button {
+	padding: 10px 16px;
+	border: none;
+	border-radius: 8px;
+	background: #2563eb;
+	color: #ffffff;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+#students {
+	margin-top: 24px;
+	display: grid;
+	gap: 12px;
+	max-width: 420px;
+}
+
+.student-card {
+	background: #ffffff;
+	padding: 16px;
+	border-radius: 12px;
+	box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+}
+
+.student-card h4 {
+	margin: 0 0 8px;
+}
+
+.student-card p {
+	margin: 4px 0;
+	word-break: break-word;
+} */

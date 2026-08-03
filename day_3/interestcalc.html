@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interest Calculator</title>
+    <link rel="stylesheet" href="interestcalc.css">
+</head>
+<body>
+<div class="box">
+    <h2>Interest Calculator</h2>
+    <div class="input-box">
+        <label>Principal</label><br>
+        <input type="number" id="p"><br><br>
+        <label>Rate</label><br>
+        <input type="number" id="r"><br><br>
+        <label>Time</label><br>
+        <input type="number" id="t"><br><br>
+    </div>
+    <button onclick="simpleInterest()">Simple Interest</button>
+    <button onclick="compoundInterest()">Compound Interest</button>
+    <div class="result-box">
+        <h3 id="result"></h3>
+    </div>
+</div>
+<script src="interestcalc.js"></script>
+
+</body>
+</html>
