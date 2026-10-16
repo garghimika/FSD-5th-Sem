@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Student Management System</h1>
+
+        <!-- Student Form -->
+        <div class="form-section">
+
+            <div class="form-group">
+                <label>Student Name</label>
+                <input type="text" placeholder="Enter student name">
+            </div>
+
+            <div class="form-group">
+                <label>Roll No.</label>
+                <input type="text" placeholder="Enter roll number">
+            </div>
+
+            <div class="form-group">
+                <label>Course</label>
+                <select>
+                    <option>Select Course</option>
+                    <option>B.Tech</option>
+                    <option>BCA</option>
+                    <option>MCA</option>
+                    <option>B.Sc</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Marks</label>
+                <input type="number" placeholder="Enter marks">
+            </div>
+
+        </div>
+
+        <button class="submit-btn">Submit</button>
+
+        <hr>
+
+        <!-- Search -->
+        <input
+            type="text"
+            class="search"
+            placeholder="Search by Name or Roll No."
+        >
+
+        <!-- Statistics -->
+        <div class="stats">
+
+            <div class="stat-box">
+                <span>Total Students:</span>
+                <strong>0</strong>
+            </div>
+
+            <div class="stat-box">
+                <span>Average Marks:</span>
+                <strong>0</strong>
+            </div>
+
+        </div>
+
+        <!-- Student Table -->
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Roll No.</th>
+                        <th>Name</th>
+                        <th>Course</th>
+                        <th>Marks</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>Rahul</td>
+                        <td>B.Tech</td>
+                        <td>85</td>
+                        <td>
+                            <button class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>102</td>
+                        <td>Priya</td>
+                        <td>BCA</td>
+                        <td>90</td>
+                        <td>
+                            <button class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+</html>
